@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+    padding-top: 200px;
+}
+
+input, select {
+    padding: 10px;
+    font-size: 18px;
+}

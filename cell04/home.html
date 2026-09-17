@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Portfolio</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      background: linear-gradient(135deg, #f6b5df, #f5a2cd);
+    }
+
+    .home-container {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.8rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .person-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    .person-btn {
+      padding: 1rem 3rem;
+
+      background: white;
+      color: #222;
+
+      text-decoration: none;
+      font-size: 1.2rem;
+
+      border: 3px solid #111;
+      border-radius: 30px;
+
+      transition: 0.2s ease;
+    }
+
+    .person-btn:hover {
+      background: #111;
+      color: white;
+      transform: translateY(-5px);
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      .person-buttons {
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .person-btn {
+        width: 220px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="home-container">
+
+    <h1>Our Resume</h1>
+
+    <p>Select a person to view their profile</p>
+
+    <div class="person-buttons">
+
+      <a href="profile1.html" class="person-btn">
+        Person 1
+      </a>
+
+      <a href="person2.html" class="person-btn">
+        Person 2
+      </a>
+
+    </div>
+
+  </main>
+
+</body>
+</html>

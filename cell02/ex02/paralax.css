@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    height: 100vh;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_cB-TPsR2PMZ7-KPcpaMYzfw6i8eT907c3ip9GFj-_jrCJMyUCnJAlBA&s=10");
+}
+
+.image2 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKSipL15-EvpOyY9Pr6W47lpb18rCJZ5rvgOkwhbE41YqYynN3uoijbxR_&s=10");
+}
+
+.message {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 15px 25px;
+    font-size: 24px;
+}
+
+.content {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+}
