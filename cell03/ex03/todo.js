@@ -40,7 +40,7 @@ function saveCookie() {
     document.cookie =
         "todos=" +
         encodeURIComponent(JSON.stringify(todos)) +
-        "; path=/; max-age=31536000";
+        "; path=/";
 }
 
 function loadCookie() {
